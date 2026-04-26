@@ -1,4 +1,4 @@
-# RPI5
+### RPI5
 <pre>
   <code>
 IP:      10.99.1.2
@@ -7,7 +7,7 @@ Gateway: 10.99.1.1
   </code>
 </pre>
 
-## WIFI
+### WIFI
 <pre>
   <code>
 Name : DOTYWET 5G/2G
@@ -15,7 +15,7 @@ Pass : dotycat.com
   </code>
 </pre>
 
-## LOGIN
+### LOGIN
 <pre>
   <code>
 Name   : root

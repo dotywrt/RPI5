@@ -1,4 +1,4 @@
-name: RPI5 OpenWrt Auto Builder
+name: RPI5 OpenWrt Auto Builder V3
 
 on:
   workflow_dispatch:

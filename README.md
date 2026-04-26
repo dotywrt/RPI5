@@ -7,7 +7,7 @@ Gateway: 10.99.1.1
   </code>
 </pre>
 
-# WIFI
+## WIFI
 <pre>
   <code>
 Name : DOTYWET 5G/2G
@@ -15,10 +15,10 @@ Pass : dotycat.com
   </code>
 </pre>
 
-# LOGIN
+## LOGIN
 <pre>
   <code>
 Name   : root
-Passwd : <no psaawd>
+Passwd : *no psaawd*
   </code>
 </pre>

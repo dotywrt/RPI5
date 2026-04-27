@@ -90,7 +90,6 @@ for (let phy_name, phy in board.wlan) {
 		if (length(info.radios) > 0)
 			id += `\nset ${s}.radio='${radio.index}'`;
 
-        let ssid = (band_name == "2g") ? "DOTYWRT 2G" : "DOTYWRT 5G";
 		print(`set ${s}=wifi-device
 set ${s}.type='mac80211'
 set ${s}.${id}
@@ -105,9 +104,9 @@ set ${si}=wifi-iface
 set ${si}.device='${name}'
 set ${si}.network='lan'
 set ${si}.mode='ap'
-set ${si}.ssid='${ssid}'
-set ${si}.encryption='psk2'
-set ${si}.key='dotycat.com'
+set ${si}.ssid='${defaults?.ssid || "DOTY"}'
+set ${si}.encryption='${defaults?.encryption || "none"}'
+set ${si}.key='${defaults?.key || ""}'
 
 `);
 		config[name] = {};
